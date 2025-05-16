@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="mainclasses.UpcomingBikeTest">
+        <methods>
+          <include name="writeUpcomingToExcel"/>
+          <include name="getLaunchDates"/>
+          <include name="getNames"/>
+          <include name="searchForUpcomingBikes"/>
+          <include name="getPrices"/>
+          <include name="searchForAllUpcomingBikes"/>
+          <include name="searchForNewBikes"/>
+          <include name="searchForHondaBikes"/>
+        </methods>
+      </class> <!-- mainclasses.UpcomingBikeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

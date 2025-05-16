@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="21" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-16T04:57:08Z" name="HackathonSuite" finished-at="2025-05-16T04:58:13Z" duration-ms="64838">
+    <groups>
+      <group name="regression">
+        <method signature="UpcomingBikeTest.getLaunchDates()[pri:7, instance:mainclasses.UpcomingBikeTest@7ce69770]" name="getLaunchDates" class="mainclasses.UpcomingBikeTest"/>
+        <method signature="UpcomingBikeTest.getNames()[pri:5, instance:mainclasses.UpcomingBikeTest@7ce69770]" name="getNames" class="mainclasses.UpcomingBikeTest"/>
+        <method signature="UpcomingBikeTest.getPrices()[pri:6, instance:mainclasses.UpcomingBikeTest@7ce69770]" name="getPrices" class="mainclasses.UpcomingBikeTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="UpcomingBikeTest.searchForAllUpcomingBikes()[pri:3, instance:mainclasses.UpcomingBikeTest@7ce69770]" name="searchForAllUpcomingBikes" class="mainclasses.UpcomingBikeTest"/>
+        <method signature="UpcomingBikeTest.searchForUpcomingBikes()[pri:2, instance:mainclasses.UpcomingBikeTest@7ce69770]" name="searchForUpcomingBikes" class="mainclasses.UpcomingBikeTest"/>
+        <method signature="UpcomingBikeTest.searchForHondaBikes()[pri:4, instance:mainclasses.UpcomingBikeTest@7ce69770]" name="searchForHondaBikes" class="mainclasses.UpcomingBikeTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-05-16T04:57:08Z" name="Test1" finished-at="2025-05-16T04:58:13Z" duration-ms="64838">
+      <class name="mainclasses.UpcomingBikeTest">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:08Z" name="setupExtentReports" finished-at="2025-05-16T10:27:08Z" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReports -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:08Z" name="setup" finished-at="2025-05-16T10:27:17Z" duration-ms="8982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:17Z" name="setUp" finished-at="2025-05-16T10:27:17Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchForNewBikes()[pri:1, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:17Z" name="searchForNewBikes" finished-at="2025-05-16T10:27:20Z" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForNewBikes -->
+        <test-method signature="searchForUpcomingBikes()[pri:2, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:20Z" name="searchForUpcomingBikes" finished-at="2025-05-16T10:27:21Z" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForUpcomingBikes -->
+        <test-method signature="searchForAllUpcomingBikes()[pri:3, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:21Z" name="searchForAllUpcomingBikes" finished-at="2025-05-16T10:27:22Z" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForAllUpcomingBikes -->
+        <test-method signature="searchForHondaBikes()[pri:4, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:22Z" name="searchForHondaBikes" finished-at="2025-05-16T10:27:23Z" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForHondaBikes -->
+        <test-method signature="getNames()[pri:5, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:23Z" name="getNames" finished-at="2025-05-16T10:27:23Z" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNames -->
+        <test-method signature="getPrices()[pri:6, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:23Z" name="getPrices" finished-at="2025-05-16T10:27:23Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPrices -->
+        <test-method signature="getLaunchDates()[pri:7, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:23Z" name="getLaunchDates" finished-at="2025-05-16T10:27:24Z" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLaunchDates -->
+        <test-method signature="writeUpcomingToExcel()[pri:8, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:24Z" name="writeUpcomingToExcel" finished-at="2025-05-16T10:27:26Z" depends-on-methods="mainclasses.UpcomingBikeTest.getLaunchDates, mainclasses.UpcomingBikeTest.getNames, mainclasses.UpcomingBikeTest.getPrices" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeUpcomingToExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:27:26Z" name="tearDown" finished-at="2025-05-16T10:27:30Z" duration-ms="4484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:mainclasses.UpcomingBikeTest@7ce69770]" started-at="2025-05-16T10:28:13Z" name="tearDownExtentReports" finished-at="2025-05-16T10:28:13Z" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentReports -->
+      </class> <!-- mainclasses.UpcomingBikeTest -->
+      <class name="mainclasses.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mainclasses.LoginTest@5b247367]" started-at="2025-05-16T10:27:53Z" name="setup" finished-at="2025-05-16T10:28:01Z" duration-ms="7829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mainclasses.LoginTest@5b247367]" started-at="2025-05-16T10:28:01Z" name="setUp" finished-at="2025-05-16T10:28:01Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin()[pri:17, instance:mainclasses.LoginTest@5b247367]" started-at="2025-05-16T10:28:01Z" name="testInvalidLogin" finished-at="2025-05-16T10:28:08Z" duration-ms="7739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mainclasses.LoginTest@5b247367]" started-at="2025-05-16T10:28:08Z" name="tearDown" finished-at="2025-05-16T10:28:13Z" duration-ms="4426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mainclasses.LoginTest -->
+      <class name="mainclasses.UsedCarTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:30Z" name="setup" finished-at="2025-05-16T10:27:41Z" duration-ms="10888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:41Z" name="setup" finished-at="2025-05-16T10:27:41Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="menuDropdownClickable()[pri:9, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:41Z" name="menuDropdownClickable" finished-at="2025-05-16T10:27:42Z" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuDropdownClickable -->
+        <test-method signature="dropdownDisplaysOptions()[pri:10, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:42Z" name="dropdownDisplaysOptions" finished-at="2025-05-16T10:27:44Z" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownDisplaysOptions -->
+        <test-method signature="usedCarsPresent()[pri:11, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:44Z" name="usedCarsPresent" finished-at="2025-05-16T10:27:45Z" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCarsPresent -->
+        <test-method signature="usedCarsClickable()[pri:12, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:45Z" name="usedCarsClickable" finished-at="2025-05-16T10:27:47Z" duration-ms="2318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCarsClickable -->
+        <test-method signature="verifyCityFilterOpens()[pri:13, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:47Z" name="verifyCityFilterOpens" finished-at="2025-05-16T10:27:47Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityFilterOpens -->
+        <test-method signature="citySelection()[pri:14, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:47Z" name="citySelection" finished-at="2025-05-16T10:27:48Z" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citySelection -->
+        <test-method signature="verifyPopularModelsDisplayed()[pri:15, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:48Z" name="verifyPopularModelsDisplayed" finished-at="2025-05-16T10:27:48Z" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopularModelsDisplayed -->
+        <test-method signature="writePopularModelsToExcel()[pri:16, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:48Z" name="writePopularModelsToExcel" finished-at="2025-05-16T10:27:49Z" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writePopularModelsToExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mainclasses.UsedCarTest@1750fbeb]" started-at="2025-05-16T10:27:49Z" name="tearDown" finished-at="2025-05-16T10:27:53Z" duration-ms="4033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mainclasses.UsedCarTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- HackathonSuite -->
+</testng-results>

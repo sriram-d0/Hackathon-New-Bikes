@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [HackathonSuite]" guice-stage="DEVELOPMENT">
+  <test name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="mainclasses.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testInvalidLogin"/>
+        </methods>
+      </class> <!-- mainclasses.LoginTest -->
+      <class name="mainclasses.UpcomingBikeTest">
+        <methods>
+          <include name="writeUpcomingToExcel"/>
+          <include name="setupExtentReports"/>
+          <include name="getLaunchDates"/>
+          <include name="getNames"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="searchForUpcomingBikes"/>
+          <include name="tearDown"/>
+          <include name="getPrices"/>
+          <include name="searchForAllUpcomingBikes"/>
+          <include name="searchForHondaBikes"/>
+        </methods>
+      </class> <!-- mainclasses.UpcomingBikeTest -->
+      <class name="mainclasses.UsedCarTest">
+        <methods>
+          <include name="usedCarsPresent"/>
+          <include name="dropdownDisplaysOptions"/>
+          <include name="writePopularModelsToExcel"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyCityFilterOpens"/>
+          <include name="menuDropdownClickable"/>
+          <include name="verifyPopularModelsDisplayed"/>
+          <include name="setup"/>
+          <include name="usedCarsClickable"/>
+        </methods>
+      </class> <!-- mainclasses.UsedCarTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [HackathonSuite] -->

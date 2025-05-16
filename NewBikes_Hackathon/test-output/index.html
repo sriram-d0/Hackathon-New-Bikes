@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-HackathonSuite" class="navigator-link">
+              <span class="suite-name border-passed">HackathonSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-HackathonSuite" class="navigator-link ">
+                    <span>C:\Users\2393054\eclipse-workspace\NewBikes_Hackathon\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-HackathonSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-HackathonSuite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-HackathonSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-HackathonSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-HackathonSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-HackathonSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HackathonSuite" class="hide-methods passed suite-HackathonSuite"> (hide)</a> <!-- hide-methods passed suite-HackathonSuite -->
+                      <a href="#" panel-name="suite-HackathonSuite" class="show-methods passed suite-HackathonSuite"> (show)</a> <!-- show-methods passed suite-HackathonSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-HackathonSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UsedCarTest" class="method navigator-link" hash-for-method="citySelection">citySelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UsedCarTest" class="method navigator-link" hash-for-method="dropdownDisplaysOptions">dropdownDisplaysOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UpcomingBikeTest" class="method navigator-link" hash-for-method="getLaunchDates">getLaunchDates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UpcomingBikeTest" class="method navigator-link" hash-for-method="getNames">getNames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UpcomingBikeTest" class="method navigator-link" hash-for-method="getPrices">getPrices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UsedCarTest" class="method navigator-link" hash-for-method="menuDropdownClickable">menuDropdownClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UpcomingBikeTest" class="method navigator-link" hash-for-method="searchForAllUpcomingBikes">searchForAllUpcomingBikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UpcomingBikeTest" class="method navigator-link" hash-for-method="searchForHondaBikes">searchForHondaBikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UpcomingBikeTest" class="method navigator-link" hash-for-method="searchForNewBikes">searchForNewBikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UpcomingBikeTest" class="method navigator-link" hash-for-method="searchForUpcomingBikes">searchForUpcomingBikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.LoginTest" class="method navigator-link" hash-for-method="testInvalidLogin">testInvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UsedCarTest" class="method navigator-link" hash-for-method="usedCarsClickable">usedCarsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UsedCarTest" class="method navigator-link" hash-for-method="usedCarsPresent">usedCarsPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UsedCarTest" class="method navigator-link" hash-for-method="verifyCityFilterOpens">verifyCityFilterOpens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UsedCarTest" class="method navigator-link" hash-for-method="verifyPopularModelsDisplayed">verifyPopularModelsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UsedCarTest" class="method navigator-link" hash-for-method="writePopularModelsToExcel">writePopularModelsToExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="mainclasses.UpcomingBikeTest" class="method navigator-link" hash-for-method="writeUpcomingToExcel">writeUpcomingToExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HackathonSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HackathonSuite" class="panel HackathonSuite">
+          <div class="suite-HackathonSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mainclasses.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLogin">
+                  </a> <!-- testInvalidLogin -->
+                  <span class="method-name">testInvalidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HackathonSuite-class-passed -->
+          <div class="suite-HackathonSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mainclasses.UpcomingBikeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLaunchDates">
+                  </a> <!-- getLaunchDates -->
+                  <span class="method-name">getLaunchDates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNames">
+                  </a> <!-- getNames -->
+                  <span class="method-name">getNames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPrices">
+                  </a> <!-- getPrices -->
+                  <span class="method-name">getPrices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForAllUpcomingBikes">
+                  </a> <!-- searchForAllUpcomingBikes -->
+                  <span class="method-name">searchForAllUpcomingBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForHondaBikes">
+                  </a> <!-- searchForHondaBikes -->
+                  <span class="method-name">searchForHondaBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForNewBikes">
+                  </a> <!-- searchForNewBikes -->
+                  <span class="method-name">searchForNewBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForUpcomingBikes">
+                  </a> <!-- searchForUpcomingBikes -->
+                  <span class="method-name">searchForUpcomingBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="writeUpcomingToExcel">
+                  </a> <!-- writeUpcomingToExcel -->
+                  <span class="method-name">writeUpcomingToExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HackathonSuite-class-passed -->
+          <div class="suite-HackathonSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mainclasses.UsedCarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="citySelection">
+                  </a> <!-- citySelection -->
+                  <span class="method-name">citySelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdownDisplaysOptions">
+                  </a> <!-- dropdownDisplaysOptions -->
+                  <span class="method-name">dropdownDisplaysOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="menuDropdownClickable">
+                  </a> <!-- menuDropdownClickable -->
+                  <span class="method-name">menuDropdownClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usedCarsClickable">
+                  </a> <!-- usedCarsClickable -->
+                  <span class="method-name">usedCarsClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usedCarsPresent">
+                  </a> <!-- usedCarsPresent -->
+                  <span class="method-name">usedCarsPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCityFilterOpens">
+                  </a> <!-- verifyCityFilterOpens -->
+                  <span class="method-name">verifyCityFilterOpens</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPopularModelsDisplayed">
+                  </a> <!-- verifyPopularModelsDisplayed -->
+                  <span class="method-name">verifyPopularModelsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="writePopularModelsToExcel">
+                  </a> <!-- writePopularModelsToExcel -->
+                  <span class="method-name">writePopularModelsToExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HackathonSuite-class-passed -->
+        </div> <!-- panel HackathonSuite -->
+        <div panel-name="test-xml-HackathonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2393054\eclipse-workspace\NewBikes_Hackathon\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;HackathonSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mainclasses.UpcomingBikeTest&quot;/&gt;
+      &lt;class name=&quot;mainclasses.UsedCarTest&quot;/&gt;
+      &lt;class name=&quot;mainclasses.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+&lt;/suite&gt; &lt;!-- HackathonSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HackathonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HackathonSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HackathonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HackathonSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getLaunchDates</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getNames</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getPrices</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchForAllUpcomingBikes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchForHondaBikes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchForUpcomingBikes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HackathonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HackathonSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HackathonSuite');
+function tableData_HackathonSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testInvalidLogin')
+data.setCell(0, 2, 'mainclasses.LoginTest')
+data.setCell(0, 3, 7739);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchForNewBikes')
+data.setCell(1, 2, 'mainclasses.UpcomingBikeTest')
+data.setCell(1, 3, 3275);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'usedCarsClickable')
+data.setCell(2, 2, 'mainclasses.UsedCarTest')
+data.setCell(2, 3, 2318);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'writeUpcomingToExcel')
+data.setCell(3, 2, 'mainclasses.UpcomingBikeTest')
+data.setCell(3, 3, 2173);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'dropdownDisplaysOptions')
+data.setCell(4, 2, 'mainclasses.UsedCarTest')
+data.setCell(4, 3, 1336);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'usedCarsPresent')
+data.setCell(5, 2, 'mainclasses.UsedCarTest')
+data.setCell(5, 3, 1231);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'menuDropdownClickable')
+data.setCell(6, 2, 'mainclasses.UsedCarTest')
+data.setCell(6, 3, 841);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'citySelection')
+data.setCell(7, 2, 'mainclasses.UsedCarTest')
+data.setCell(7, 3, 837);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchForUpcomingBikes')
+data.setCell(8, 2, 'mainclasses.UpcomingBikeTest')
+data.setCell(8, 3, 830);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchForAllUpcomingBikes')
+data.setCell(9, 2, 'mainclasses.UpcomingBikeTest')
+data.setCell(9, 3, 786);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'writePopularModelsToExcel')
+data.setCell(10, 2, 'mainclasses.UsedCarTest')
+data.setCell(10, 3, 764);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchForHondaBikes')
+data.setCell(11, 2, 'mainclasses.UpcomingBikeTest')
+data.setCell(11, 3, 660);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getLaunchDates')
+data.setCell(12, 2, 'mainclasses.UpcomingBikeTest')
+data.setCell(12, 3, 577);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getNames')
+data.setCell(13, 2, 'mainclasses.UpcomingBikeTest')
+data.setCell(13, 3, 245);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getPrices')
+data.setCell(14, 2, 'mainclasses.UpcomingBikeTest')
+data.setCell(14, 3, 167);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyPopularModelsDisplayed')
+data.setCell(15, 2, 'mainclasses.UsedCarTest')
+data.setCell(15, 3, 72);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyCityFilterOpens')
+data.setCell(16, 2, 'mainclasses.UsedCarTest')
+data.setCell(16, 3, 58);
+window.suiteTableData['HackathonSuite']= { tableData: data, tableDiv: 'times-div-HackathonSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <div id="times-div-HackathonSuite">
+              </div> <!-- times-div-HackathonSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HackathonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HackathonSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HackathonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">mainclasses.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupExtentReports</span>
+                <br/>
+                <span class="ignored-method-name">tearDownExtentReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">mainclasses.UsedCarTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupExtentReports</span>
+                <br/>
+                <span class="ignored-method-name">tearDownExtentReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HackathonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">mainclasses.UpcomingBikeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupExtentReports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">494 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9476 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchForNewBikes</span>
+                <span class="method-start">9585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchForUpcomingBikes</span>
+                <span class="method-start">12873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchForAllUpcomingBikes</span>
+                <span class="method-start">13709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchForHondaBikes</span>
+                <span class="method-start">14498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getNames</span>
+                <span class="method-start">15168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPrices</span>
+                <span class="method-start">15418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getLaunchDates</span>
+                <span class="method-start">15588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">writeUpcomingToExcel</span>
+                <span class="method-start">16168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18344 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mainclasses.UsedCarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">22829 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">33717 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">menuDropdownClickable</span>
+                <span class="method-start">33743 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dropdownDisplaysOptions</span>
+                <span class="method-start">34586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usedCarsPresent</span>
+                <span class="method-start">35923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usedCarsClickable</span>
+                <span class="method-start">37155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCityFilterOpens</span>
+                <span class="method-start">39475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">citySelection</span>
+                <span class="method-start">39534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPopularModelsDisplayed</span>
+                <span class="method-start">40374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">writePopularModelsToExcel</span>
+                <span class="method-start">40449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41215 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mainclasses.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">45248 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53077 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLogin</span>
+                <span class="method-start">53138 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60879 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mainclasses.UpcomingBikeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownExtentReports</span>
+                <span class="method-start">65369 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
